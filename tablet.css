@@ -1,0 +1,37 @@
+/*Tablet: width >= 740px and width < 1024px */
+@media only screen and (min-width: 740px) and (max-width: 1024px) {
+  /*navbar*/
+  .nav-info-person {
+    display: none;
+  }
+  /*kinh nghiệm*/
+  .container {
+    grid-template-columns: 50% 50%;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  /*chứng chỉ*/
+  .certificate1 {
+    margin-left: 20px;
+  }
+  .certificate2 {
+    margin-left: 0px;
+  }
+  .certificate3 {
+    margin-left: 20px;
+  }
+
+  /*dự án*/
+  .project {
+    flex-direction: column;
+    width: 100%;
+    margin-left: 5px;
+  }
+  .pic-project {
+    width: 900px;
+    height: fit-content;
+  }
+  .table {
+    margin-right: 20px;
+  }
+}

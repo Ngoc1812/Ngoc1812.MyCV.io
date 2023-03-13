@@ -1,0 +1,107 @@
+/* Mobile width < 740px */
+@media only screen and (max-width: 740px) {
+  .nav-info-person {
+    display: none;
+  }
+  .contain-info {
+    grid-template-columns: 100%;
+  }
+  .contain1 {
+    margin-left: 0px;
+  }
+  .contain2 {
+    margin-right: 0px;
+  }
+  .nav-container {
+    flex-direction: column;
+  }
+  .nav-info-person {
+    display: none;
+  }
+  .nav-detail {
+    flex-direction: column;
+  }
+  .contain-info {
+    flex-direction: column;
+  }
+  .container {
+    grid-template-columns: 100%;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  /*chứng chỉ-giải thưởng*/
+  .award {
+    margin-left: 20px;
+    margin-top: 30px;
+  }
+  .certificate {
+    grid-template-columns: 40%;
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .certificate1 {
+    margin-left: 0;
+    margin-bottom: 30px;
+    flex-direction: column;
+  }
+
+  .certificate1 img {
+    margin-bottom: 10px;
+    height: 150px;
+    width: 250px;
+    object-fit: cover;
+  }
+
+  .certificate2 img {
+    margin-bottom: 10px;
+    height: 150px;
+    width: 250px;
+    object-fit: cover;
+  }
+
+  .certificate3 img {
+    margin-bottom: 10px;
+    height: 150px;
+    width: 250px;
+    object-fit: cover;
+  }
+
+  .program div {
+    font-size: 14px;
+  }
+  .award1 {
+    margin-right: 350px;
+    margin-left: 20px;
+    padding-left: 20px;
+  }
+  .certificate2 {
+    margin-top: 0;
+    margin-left: 0;
+    margin-bottom: 30px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .certificate3 {
+    margin-left: 0;
+    margin-top: 0;
+    flex-direction: column;
+    align-items: center;
+  }
+  /*dự án*/
+  .project {
+    flex-direction: column;
+    width: 100%;
+    margin-left: 20px;
+  }
+  .table {
+    margin-right: 30px;
+  }
+  .future {
+    margin-left: 0px;
+  }
+  .pic-project {
+    width: 450px;
+  }
+}
